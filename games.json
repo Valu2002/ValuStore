@@ -1,0 +1,29 @@
+{
+  "games": [
+    {
+      "id": 2,
+      "name": "Wolverine",
+      "platform": "V-Console"
+    },
+    {
+      "name": "Outlast Trials",
+      "platform": "V-Console",
+      "id": 3
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "platform": "V-Console",
+      "id": 4
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "platform": "V-Console",
+      "id": 5
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "platform": "V-Console",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>The Witcher 3 Wild Hunt Complete Edition</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">The Witcher 3 Wild Hunt Complete Edition</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>3.43</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/t/h/2bd48d28d1c32adea0e55139a4e6434a/the_witcher_3_wild_hunt_complete_edition_xbox_series_x_2d_coperta_9ec1a2b2.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$14.99</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('The Witcher 3 Wild Hunt Complete Edition', 14.99, 'https://lcdn.altex.ro/resize/media/catalog/product/t/h/2bd48d28d1c32adea0e55139a4e6434a/the_witcher_3_wild_hunt_complete_edition_xbox_series_x_2d_coperta_9ec1a2b2.jpg', 'witcher3.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('The Witcher 3 Wild Hunt Complete Edition', 14.99, 'https://lcdn.altex.ro/resize/media/catalog/product/t/h/2bd48d28d1c32adea0e55139a4e6434a/the_witcher_3_wild_hunt_complete_edition_xbox_series_x_2d_coperta_9ec1a2b2.jpg', 'witcher3.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-xbox"></i> Xbox Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Geralt and his mentor Vesemir arrive at the town of White Orchard after receiving a letter from Geralt's
+                long-lost lover Yennefer. After defeating a griffin for the local Nilfgaardian garrison, Geralt
+                accompanies Yennefer to the city of Vizima, where they meet with Emperor Emhyr. Emhyr orders Geralt to
+                find Ciri, who is Emhyr's biological (and Geralt's adopted) daughter. Ciri is a Child of the Elder
+                Blood, the last heir to an ancient Elven bloodline that grants her the power to manipulate time and
+                space, and is being relentlessly stalked by the enigmatic Wild Hunt. Geralt learns of three places Ciri
+                was recently seen: the war-ravaged swamp province of Velen, the free city-state of Novigrad, and the
+                Skellige Isles.
+
+                In Velen, Geralt tracks Ciri to the fortress of The Bloody Baron, a warlord who recently took over the
+                province. The Baron demands that Geralt find his missing wife and daughter in exchange for information
+                about Ciri. Geralt learns that the Baron drove his own family away with his drunken rages; while his
+                daughter fled to Oxenfurt, his wife Anna became a servant of the Crones, three malicious witches that
+                watch over Velen. He also discovers that Ciri was briefly captured by the Crones, but escaped to the
+                Baron's stronghold before continuing on to Novigrad.
+
+                At Novigrad, Geralt reunites with his former lover Triss Merigold, who has gone underground to escape
+                persecution by the Church of the Eternal Fire. He learns that Ciri and his old friend Dandelion ran
+                afoul of Novigrad's powerful crime bosses while seeking to break a curse related to a mysterious
+                phylactery. With the help of Triss and several old acquaintances, Geralt rescues Dandelion, who tells
+                him that Ciri teleported away to escape pursuit by guards.
+
+                Geralt sails to Skellige and reunites with Yennefer, who is investigating a magical explosion near where
+                Ciri was last seen. They discover that Ciri visited the island of Lofoten, but when the Wild Hunt
+                attacked again, fled in a boat with an unidentified elf. When the boat returned to shore, its only
+                occupant was Uma, a deformed creature Geralt previously saw living with the Bloody Baron. Deducing that
+                Uma was the victim of the curse Ciri tried to lift in Novigrad, Geralt collects Uma in Velen and takes
+                him to the nearly abandoned witcher school at Kaer Morhen. Working with Yennefer and his fellow
+                witchers, Geralt breaks the curse and restores Uma's true identity: Avallac'h, Ciri's teacher and the
+                elf seen with her on her travels. Avallac'h tells Geralt that he placed Ciri in an enchanted sleep on
+                the Isle of Mists to keep her temporarily safe from the Wild Hunt.
+
+                Geralt finds Ciri on the Isle of Mists and learns from her that Eredin, the leader of the Wild Hunt,
+                wants her Elder Blood powers to save his homeworld from a catastrophe known as the White Frost. They
+                return to Kaer Morhen and fortify it against the inevitable arrival of the Hunt. In the battle that
+                ensues, Vesemir is killed, causing Ciri to unleash her uncontrolled power and temporarily send the Hunt
+                into retreat.
+
+                Realizing that the Hunt will never stop, Ciri and Geralt decide to fight Eredin at a time and place of
+                their choosing. While Triss and Yennefer reform the Lodge of Sorceresses to aid in the fight, Geralt
+                recovers the Sunstone, an artifact that can communicate between worlds. Using the Sunstone, Avallac'h
+                lures Eredin to Skellige, where Geralt defeats him in combat. As he dies, Eredin tells Geralt that
+                Avallac'h has betrayed him, and plans to use Ciri's power for his own ends.
+
+                As the White Frost begins to encroach on the Continent, Geralt and Yennefer pursue Avallac'h, but find
+                Ciri alive and well. She tells Geralt that Avallac'h is not a traitor, and has only ever intended to
+                fight the White Frost. Thinking back on her relationship with Geralt, Ciri finds the strength to stop
+                the cataclysm; if Geralt patronized and protected her throughout the game, she dies in the attempt, but
+                if he guided her to mature and make her own choices, she survives.
+
+                The player's choices can lead to several different endings. If Ciri survives after defeating the White
+                Frost and Geralt took her to meet her father, she will become the Empress of Nilfgaard. If Ciri survives
+                but did not meet the emperor, Geralt helps her fake her death, and she becomes a witcher. If Ciri is
+                killed in her confrontation with the White Frost, Geralt retrieves her medallion from the last remaining
+                Crone and mourns quietly as his hut is swarmed by monsters. The player's choices also determine whether
+                Geralt ends up in a romantic relationship with Yennefer, Triss, or neither, and how much of the North is
+                ultimately conquered by Nilfgaard.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>The Witcher 3: Wild Hunt is an action role-playing game with a third-person perspective. Players control
+                Geralt of Rivia, a monster slayer known as a Witcher.[1] Geralt walks, runs, rolls and dodges, and (for
+                the first time in the series) jumps, climbs and swims.[2][3] He has a variety of weapons, including
+                bombs, a crossbow and two swords (one steel and one silver).[4] The steel sword is used primarily to
+                kill humans while the silver sword is more effective against creatures and monsters.[5] Players can draw
+                out, switch and sheathe their swords at will. There are two modes of melee attack; light attacks are
+                fast but weak, and heavy attacks are slow but strong.[6] Players can block and counter enemy attacks
+                with their swords.[4] Swords have limited endurance and require regular repair.[7] In addition to
+                physical attacks, Geralt has five magical signs at his disposal: Aard, Axii, Igni, Yrden and Quen.[8]
+                Aard prompts Geralt to unleash a telekinetic blast, Axii confuses enemies, Igni burns them, Yrden slows
+                them down and Quen offers players a temporary, protective shield.[9] The signs use stamina, and cannot
+                be used indefinitely.[10] Players can use mutagens to increase Geralt's magic power. Geralt loses health
+                when attacked by enemies, although wearing armour can help reduce health loss. Health is restored with
+                meditation or consumables, such as food and potions.[4] Players occasionally control Ciri, Geralt's
+                adoptive daughter who can teleport short distances.[11]
+
+                The game has responsive, advanced artificial intelligence (AI) and dynamic environments. The day-night
+                cycle influences some monsters; a werewolf becomes powerful during the night of a full moon.[12] Players
+                can learn about their enemies and prepare for combat by reading the in-game bestiary.[13] When they kill
+                an enemy, they can loot its corpse for valuables.[13] Geralt's witcher sense enables players to find
+                objects of interest, including items that can be collected or scavenged.[14] Items are stored in the
+                inventory, which can be expanded by purchasing upgrades.[13] Players can sell items to vendors[15] or
+                use them to craft potions and bombs.[16][17] They can visit blacksmiths to craft new weapons and
+                armorers to craft new armour with what they have gathered.[18] The price of an item and the cost of
+                crafting it depend on a region's local economy.[3] Players earn experience points by completing
+                quests.[3] When a player earns enough experience, Geralt's level increases and the player receives
+                ability points.[19] These points may be used on four skill trees: combat, signs, alchemy and general.
+                Combat upgrades enhance Geralt's attacks and unlock new fighting techniques; signs upgrades enable him
+                to use magic more efficiently, and alchemy upgrades improve crafting abilities. General upgrades have a
+                variety of functions, from raising Geralt's vitality to increasing crossbow damage.[10]
+
+                The game focuses on narrative and has a dialogue tree which allows players to choose how to respond to
+                non-player characters. Geralt must make decisions which change the state of the world and lead to 36
+                possible endings, affecting the lives of in-game characters.[20] He can have a romantic relationship
+                with some of the game's female characters by completing certain quests.[21] In addition to the main
+                quests, books offer more information on the game's world.[13] Players can begin side quests after
+                visiting a town's noticeboard.[13] These side missions include Witcher Contracts (elaborate missions
+                requiring players to hunt monsters)[22] and Treasure Hunt quests, which reward players with top-tier
+                weapons or armour.[13] The game's open world is divided into several regions. Geralt can explore each
+                region on foot or by transportation, such as a boat. Roach, his horse, may be summoned at will.[23]
+                Players can kill enemies with their sword while riding Roach,[24] but an enemy presence may frighten the
+                horse and unseat Geralt.[13] Points of interest may be found on the map, and players receive experience
+                points after completing mini-missions in these regions.[25] Players can discover Places of Power for
+                additional ability points.[26] Other activities include horse racing, boxing and card playing;[27][28]
+                the card-playing mechanic was later expanded into a standalone game, Gwent: The Witcher Card Game.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/c0i88t0Kacs?si=OiWola04hbOLqbsB"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Marvel’s Spider-Man</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Marvel’s Spider-Man</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.78</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/J/O/2bd48d28d1c32adea0e55139a4e6434a/JOCPS4SPIDERMGY_a963cbbf.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$20.95</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Marvel’s Spider-Man', 20.95, 'https://lcdn.altex.ro/resize/media/catalog/product/J/O/2bd48d28d1c32adea0e55139a4e6434a/JOCPS4SPIDERMGY_a963cbbf.jpg', 'spiderman.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Marvel’s Spider-Man', 20.95, 'https://lcdn.altex.ro/resize/media/catalog/product/J/O/2bd48d28d1c32adea0e55139a4e6434a/JOCPS4SPIDERMGY_a963cbbf.jpg', 'spiderman.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Following the capture of Wilson Fisk by Spider-Man, a masked gang known as the Inner Demons begins
+                seizing Fisk's illicit assets. Mary Jane and Spider-Man learn that the Demons are seeking something
+                called Devil's Breath. With the aid of Officer Jefferson Davis, Spider-Man thwarts a Demon attack. Davis
+                is lauded for his heroism at a re-election event for Mayor Norman Osborn. The Demons attack the event,
+                killing Davis and many other attendees. Peter witnesses Martin Li transforming into their leader, Mister
+                Negative, but is knocked unconscious before he can intervene. Following the attack, Osborn hires Silver
+                Sablinova and Sable International to supplant the police. Peter befriends Davis' son, Miles Morales, and
+                persuades him to volunteer at F.E.A.S.T.
+
+                Peter and Otto Octavius continue their research into advanced prosthetic limbs, but Osborn withdraws
+                their funding in an attempt to force Octavius to work for his mega-corporation Oscorp. While searching
+                for Li, Spider-Man discovers that Devil's Breath is a lethal, virulent bioweapon inadvertently created
+                by Oscorp while developing a cure for genetic diseases. Li locates and steals the only sample of Devil's
+                Breath and threatens to release it unless Osborn surrenders to him. Mary Jane and Spider-Man foil Li,
+                who is subsequently incarcerated at a nearby maximum-security prison called the Raft, while the Devil's
+                Breath is secured.
+
+                Meanwhile, Octavius obsesses over creating enhanced limbs that exceed the human body's limitations,
+                creating four mechanical tentacles operated from his back and mentally controlled via a neural
+                interface. He reveals to Peter that he is suffering from a neuromuscular disease that will inevitably
+                immobilize him and that enhanced limbs will allow him to continue his work when his body fails. Peter
+                warns Octavius that the interface could impact his mind and personality. Octavius continues its use in
+                secret, overcome with anger at Osborn. While investigating a breakout at the Raft, Spider-Man learns
+                that some of his greatest enemies—Li, Electro, Vulture, Rhino, and Scorpion—have escaped. They subdue
+                Spider-Man and present him to Octavius, now "Doctor Octopus", who warns the beaten Spider-Man not to
+                interfere before retaking the Devil's Breath and releasing it in Times Square, causing a mass outbreak
+                that infects numerous people, including Aunt May. New York descends into chaos while Octavius' team
+                attacks the city. Osborn declares martial law and blames Spider-Man for the incident, branding him a
+                fugitive.
+
+                Spider-Man gradually takes back the city, defeating Electro, Vulture, Rhino, and Scorpion. Mary Jane
+                infiltrates Osborn's penthouse and learns that Oscorp developed Devil's Breath to cure Osborn's
+                terminally ill son Harry.[33] As a child, Li was a test subject for the cure, gaining his abilities in
+                an explosion of energy that also killed his parents and caused his hatred for Osborn. She also learns
+                that an antidote for Devil's Breath exists and that Li has stolen it. Spider-Man tracks down and defeats
+                Li, but Octavius arrives, brutalizes Spider-Man, and escapes with the antidote and Osborn. While
+                Spider-Man recovers, Miles is bitten by an Oscorp genetically modified spider that Mary Jane unknowingly
+                carried from Osborn's penthouse.[33]
+
+                Wounded, Peter builds himself an armored suit and confronts Octavius atop Oscorp Tower, rescuing Osborn.
+                Octavius reveals that he knows Peter's secret identity and a battle ensues. Spider-Man retrieves the
+                antidote and defeats Octavius, leaving him to be arrested. Peter is forced to choose between using the
+                limited cure to save May from her imminent death or synthesizing a vaccine for the infected masses; he
+                decides to save everyone. Before she dies, May reveals that she knows he is Spider-Man and is proud of
+                him.
+
+                Three months later, New York has returned to normal, and Peter and Mary Jane rekindle their
+                relationship. Miles reveals to Peter that he has gained spider-like powers, prompting Peter to reveal
+                his own. Having resigned as mayor in disgrace, Osborn enters a secret laboratory where Harry is kept in
+                stasis with a black, web-like substance.[c] As Osborn places his hand on the tank, the substance reacts
+                and copies him.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Marvel's Spider-Man is an open-world action-adventure game set in the borough of Manhattan in a
+                fictionalized version of modern-day New York City.[5][3] It is presented from a third-person perspective
+                showing the playable character and allowing the camera to be rotated freely around them.[3] The primary
+                playable character is the superhero Spider-Man,[6] who can navigate the world by jumping, using his web
+                shooters to fire webs that allow him to swing between buildings, running along walls and automatically
+                vaulting over obstacles. Webs can be precisely aimed to pull the player towards specific points.[3][4]
+                Physical objects are required to attach webs to for swinging, and momentum and speed of the swing can be
+                controlled by releasing the web at specific points to gain height or move more quickly.[7] The game
+                features an optional fast travel system that uses the New York City Subway system.[8]
+
+                Combat is enacted using three buttons; one for dodging, one for physical strikes, and one for web-based
+                attacks.[3] Webbing can be used to incapacitate enemies and stick them to nearby objects, immediately
+                removing them from battle. Enemies who are knocked from great heights are automatically stuck to a
+                nearby surface in a web-cocoon, preventing death.[9][10] Spider-Man can also use the environment to
+                fight, jumping off walls and throwing objects like manhole covers, grenades and webbing-restrained
+                enemies.[4]
+
+                Successful and consecutive attacks build "Focus", which can be partially used to heal Spider-Man, while
+                full Focus allows special finishing attacks to take down an enemy instantly.[3][4] Spider-Man possesses
+                "spider-sense", which is shown as a white icon around the character's head, indicating an incoming
+                attack that can be dodged. A precise dodge performed just before the attack hits allows Spider-Man to
+                retaliate with webbing against the enemy.[4] Some enemies must be overcome using different approaches.
+                Melee-weapon-wielding enemies must be knocked into the air and shielded enemies must be attacked from
+                behind. Enemies armed with whips will drag Spider-Man out of the air and require a counterattack to
+                fight effectively. Other types of enemy include heavily armored agents who can take more damage, brutes,
+                and jetpack-wearing enemies who remain airborne.[9]
+
+                Spider-Man has access to a variety of gadgets that can be deployed in combat; these include electric
+                webbing, concussive blasts, and impact webbing that launches enemies backwards and can stick them to a
+                nearby surface.[10][4] Gadgets are unlocked by progressing through the game and can be accessed from a
+                radial menu.[4] Spider-Man has several unlockable suits that are based on existing versions of the
+                character in media; there are also original suits created for the game. Many of these offer special
+                abilities that can aid in combat, such as increasing Focus gain, reducing gravity, enhancing stealth,
+                making the player invulnerable, and unleashing an electromagnetic pulse to disable enemy weapons. Once
+                unlocked, suits and powers can be freely combined.[3][10] Stealth combat involves Spider-Man moving
+                around raised locations using gadgets or webbing to neutralize isolated enemies.[10] Leveling up allows
+                the player to unlock skills from three different specialties, focusing on ground combat, aerial combat,
+                and traversal.[8]
+
+                Suits, suit mods, gadgets, and their associated upgrades are purchased with resources called Tokens,
+                which are awarded for completion of specific tasks. Each unlockable item requires different quantities
+                of each Token type: Challenge Tokens for completing Taskmaster's time-and-skill based combat, stealth,
+                and traversal missions;[11] Backpack Tokens for locating Spider-Man's old backpacks containing mementos
+                from his past;[12] Research Tokens for completing research station missions, science minigames, and the
+                collection of pigeons;[13] Crime Tokens for stopping ambient crimes;[14] Base Tokens for clearing out
+                enemy bases;[15] and Landmark Tokens for taking pictures of specific locations around the city.[16]
+                There are also minigames that are rewarded with experience points and research tokens including Circuit
+                Puzzles that require the arrangement of an electric grid and Pattern Puzzles that require the recreation
+                of a specific pattern using composite parts.[17] Radio towers in different areas can be unscrambled,
+                highlighting collectable objects, missions, and active crimes.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/q4GdJVvdxss?si=x5uASU0yG_QnuyMJ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

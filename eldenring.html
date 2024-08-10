@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Elden Ring</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Elden Ring</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>2.33</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/E/l/2bd48d28d1c32adea0e55139a4e6434a/Elden_Ring_PS5_update.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$60</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Elden Ring', 60, 'https://lcdn.altex.ro/resize/media/catalog/product/E/l/2bd48d28d1c32adea0e55139a4e6434a/Elden_Ring_PS5_update.jpg', 'eldenring.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Elden Ring', 60, 'https://lcdn.altex.ro/resize/media/catalog/product/E/l/2bd48d28d1c32adea0e55139a4e6434a/Elden_Ring_PS5_update.jpg', 'eldenring.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Early in their journey to repair the Elden Ring, the player-character Tarnished encounters a maiden named
+                Melina. Because the Tarnished is maidenless, Melina offers to act as their maiden, granting them the
+                ability to turn runes into strength and giving the Tarnished a steed named Torrent. In exchange, Melina
+                requires the Tarnished to take her to the Erdtree, the home of the Elden Ring. Melina later takes the
+                Tarnished to the Roundtable Hold, a gathering place for other Tarnished seeking to repair the Elden
+                Ring. The Hold's benefactor, the Two Fingers, instructs the Tarnished to collect the Great Runes and
+                bring them to the Erdtree, where they can be used to repair the Elden Ring.
+
+                The Tarnished travels into the Lands Between, investigating its locales and defeating the demigods.
+                After recovering at least two Great Runes, the Two Fingers allows them to battle Morgott the
+                Grace-Given, the demigod guarding the Erdtree. The Tarnished defeats Morgott but finds a wall of thorns
+                blocking the Erdtree's interior. Melina arrives and advises the Tarnished to find the Flame of Ruin,
+                which they can use to ignite the Erdtree and destroy the thorns. The Tarnished is free to travel towards
+                the Flame of Ruin or search for a way to harness the equally powerful Frenzied Flame.
+
+                If, upon obtaining the Flame of Ruin, the Tarnished did not gain the power of the Frenzied Flame, Melina
+                takes the Flame of Ruin and sacrifices herself to set alight the Erdtree. If the Tarnished gained the
+                power of the Frenzied Flame, Melina abandons the Tarnished, forcing them to use the Frenzied Flame to
+                set alight the Erdtree. While the Erdtree burns, the Tarnished is transported to the ruined city Farum
+                Azula. After defeating Maliketh the Black Blade and using his Rune of Death to fuel the fire, the
+                Tarnished is returned to the foot of the scorched Erdtree. Inside, they fight Radagon, Queen Marika's
+                consort cohabitating her body, and the tree's guardian the Elden Beast. After both are vanquished, the
+                Tarnished gains access to Marika's shattered corpse, which contains the remains of the Elden Ring.
+                Depending on the Tarnished's actions during the game, six different endings can be achieved; the primary
+                of which include the Tarnished becoming the Elden Lord, the Elden Ring being destroyed by Ranni the
+                Witch, and the Tarnished using the Frenzied Flame to destroy the Lands Between. The three alternate
+                endings include an Age of Order, brought about by perfecting the Elden Ring, the Age of the Duskborn,
+                embedding the principle of "Life within Death" into Order, and the Blessing of Despair, overtaking the
+                Lands Between with a reviled curse.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Elden Ring is an action role-playing game set in third-person perspective. It includes elements that are
+                similar to those in other FromSoftware-developed games, such as the Dark Souls series, Bloodborne, and
+                Sekiro: Shadows Die Twice. The game is set in an open world; players can freely explore the Lands
+                Between and its six main areas, which include Limgrave—an area of grassy plains and ancient ruins—and
+                Caelid, a wasteland that is home to undead monsters.[1] The open world is explored using the character's
+                mount Torrent as the main mode of transportation, though players may use fast travel outside combat.
+                Throughout the game, players encounter non-player characters (NPCs) and enemies, including demigods who
+                rule each main area and serve as the game's main bosses.[2][3] Aside from the main areas, Elden Ring has
+                hidden dungeons, catacombs, tunnels, and caves where players can fight bosses and gather helpful
+                items.[4]
+
+                At the game's start, the player chooses a character class, which determines their starting spells,
+                equipment, and attributes.[5] Combat with enemies can be within melee, or from a distance using ranged
+                weapons. Enemy attacks can be dodged or blocked using shields. Spells allow players to enhance their
+                weapons, fight enemies from afar, and restore lost hit points. The player can memorize a limited amount
+                of these spells, which can be cast using a staff or sacred seal item.[6][7] Weapons can be improved
+                using ashes of war, which are obtainable "enchantments" that grant weapons new capabilities. Ashes of
+                war can be applied to or removed from weapons, and each Ash adds a weapon art, a special ability that
+                can be used during combat.[8] Aside from direct combat, stealth mechanics can be used to avoid enemies
+                or allow the targeting of foes with critical hits while hidden.[9][10] Staggering enemies and parrying
+                their attacks can also create opportunities for critical hits.[11][12]
+
+                Checkpoints called sites of grace are located throughout the game; in these places, characters can
+                increase the power of their attributes, change memorized spells, swap ashes of war, or walk to using
+                fast travel. Upon death, players respawn at the last site of grace they interacted with. Alternatively,
+                they may choose to respawn at certain locations highlighted by "stakes of Marika" provided they died
+                nearby.[8][13][14] To increase their attributes at sites of grace, the player must spend runes, an
+                in-game currency that is acquired by defeating enemies.[15] Runes can be used to buy items, and improve
+                weapons and armor. Dying in Elden Ring causes the player to lose all collected runes at the location of
+                death; if the player dies again before retrieving the runes, they will be lost forever.[16]
+
+                Elden Ring contains crafting mechanics; the creation of items requires materials. Recipes, which are
+                required for the crafting of items, can be found inside collectibles called cookbooks, which are
+                scattered throughout the world. Materials can be collected by defeating enemies, exploring the game's
+                world, or by trading with merchant NPCs. Crafted items include poison darts, exploding pots, and
+                consumables that temporarily increase the player's combat strength.[17][18] Similar to the Dark Souls
+                games, the player can summon friendly NPCs called spirits to fight enemies.[19] Summoning each type of
+                spirit requires its equivalent Spirit Ash; different types of Spirit Ashes can be discovered as the
+                player explores the game world. Spirits can only be summoned near structures called Rebirth Monuments,
+                which are primarily found in large areas and inside boss fight arenas.[20]
+
+                Elden Ring has a multiplayer system that allows players to be summoned for both cooperative and
+                player-versus-player (PvP) play over the Internet.[21] Cooperative play involves the placing of a summon
+                sign on the ground, which causes the sign to become visible to online players who have used a
+                corresponding item. If another player interacts with the sign, the player who placed the sign is
+                summoned into their world. Cooperative players remain in the same world until the boss of the area is
+                defeated or until a summoned player dies and is returned to their home world. In PvP combat, a summon
+                sign is used to challenge another player to a duel, or the player can use additional items to invade the
+                worlds of others. World hosts may use a "taunter's tongue" to increase the likelihood their world will
+                be invaded by others and to decrease the time between invasions.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/E3Huy2cdih0?si=K7gY27Vg_gUiYGjn"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

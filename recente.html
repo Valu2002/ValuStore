@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-WgfoFD/RRyoBdrZo8NTWiG2bBNvTepNKz1GJ5o7P2VjGGNca77IwJH5Gq74H4NoeVLLrPONB4/psa5FhSk6L7Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js"></script>
+    <script src="auth.js" defer></script>
+    <title>Latest</title>
+</head>
+
+<body>
+
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart<p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a>
+                </li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item menu-item-active" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="rc">
+        <img class="recent"
+            src="https://cdn1.epicgames.com/offer/5a2ea5980ac147c195775039195a3081/EGS_STARWARSJediSurvivorStandardEdition_RespawnEntertainment_S1_2560x1440-f9e8bb0209bb9ec26636838fbc3dcd85">
+    </div>
+
+    <div>
+        <p style="display: inline-block">STAR WARS Jedi: Survivor™</p>
+        <a href="starwars.html">
+            <p class="dreapta">Out Now</p>
+        </a>
+    </div>
+
+    <div class="content">
+        <a href="gow.html">
+            <img class="poza"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png">
+        </a>
+        <a href="hfw.html">
+            <img class="poza"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/HO8vkO9pfXhwbHi5WHECQJdN.png">
+        </a>
+        <a href="residentevil.html">
+            <img class="poza"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png">
+        </a>
+        <a href="silenthill2.html">
+            <img class="poza"
+                src="https://image.api.playstation.com/pr/bam-art/179/120/b171fa32-116e-4b83-b60f-65c819d8cfca.jpg?w=440&thumb=false">
+        </a>
+        <a href="deadisland2.html">
+            <img class="poza"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202208/1012/V6WJkRhfNIQ3ePfAmrLSfGng.png?w=440&thumb=false">
+        </a>
+        <a href="spiderman2.html">
+            <img class="poza"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.png?w=440&thumb=false">
+        </a>
+    </div>
+
+    <div class="tengames">
+        <h>Top 10 games in your country</h>
+    </div>
+
+    <div class="top">
+        <div class="scroll">
+            <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i
+                    class="fa-solid fa-circle-left"></i></button>
+            <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i
+                    class="fa-solid fa-circle-right"></i></button>
+            <div class="joc-container">
+                <figure>
+                    <a href="fifa23.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png?w=440&thumb=false"></a>
+                    <figcaption>EA SPORTS™ FIFA 23</figcaption>
+                </figure>
+                <figure>
+                    <a href="fortnite.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202305/0117/75edfe4df1946f962eaed1fb7becce1ca0ed83ef9bdf60c6.png?w=440&thumb=false"></a>
+                    <figcaption>Fortnite</figcaption>
+                </figure>
+                <figure>
+                    <a href="hogwarts.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/JmxLZt6exeqcKRz7BSmK8aId.png?w=440&thumb=false"></a>
+                    <figcaption>Hogwarts Legacy</figcaption>
+                </figure>
+                <figure>
+                    <a href="starwars.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202211/2222/l8QTN7ThQK3lRBHhB3nX1s7h.png?w=440&thumb=false"></a>
+                    <figcaption>STAR WARS Jedi: Survivor</figcaption>
+                </figure>
+                <figure>
+                    <a href="cod2.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202304/1300/81c404a325c08dbff767eb459df207b99aaff222e6cbc802.png?w=440&thumb=false"></a>
+                    <figcaption>Call of Duty: Modern Warfare II</figcaption>
+                </figure>
+                <figure>
+                    <a href="gta5.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202202/2816/K6mmm89oNII1iI1aqaClO0wh.png?w=440&thumb=false"></a>
+                    <figcaption>Grand Theft Auto V (PlayStation®5)</figcaption>
+                </figure>
+                <figure>
+                    <a href="valhalla.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202006/1520/EDtkdijFRwbmGKk1G9lrDoEF.png?w=440&thumb=false"></a>
+                    <figcaption>Assassin's Creed Valhalla</figcaption>
+                </figure>
+                <figure>
+                    <a href="diablo4.html"><img class="poza2"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202211/3017/Oo1B84A7BLCT157YFSxjtwG0.png?w=440&thumb=false"></a>
+                    <figcaption>Diablo IV</figcaption>
+                </figure>
+                <figure>
+                    <a href="minecraft.html"><img class="poza2"
+                            src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00265_00/8/i_1c2d1812f27ec71285072e191d1822134e4f9730141c88537d87837014a17295/i/icon0.png?w=440&thumb=false"></a>
+                    <figcaption>Minecraft</figcaption>
+                </figure>
+                <figure>
+                    <a href="lastofus1.html"><img class="poza2"
+                            src="https://image.api.playstation.com/pr/bam-art/145/152/5f28a6ea-f81c-494b-ae88-bc3aa6020428.jpg?w=440&thumb=false"></a>
+                    <figcaption>The Last of Us Part I</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="jocuri.js"></script>
+    <script src="auth.js"></script>
+    <script src="iconita_wishlist.js"></script>
+    <script src="iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+    
+
+</body>
+
+</html>

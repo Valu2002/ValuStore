@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="wishlist.js"></script>
+    <title>Resident Evil 4</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Resident Evil 4</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.84</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/r/e/2bd48d28d1c32adea0e55139a4e6434a/resident_evil_4_remake_ps5_2d_coperta_update_5b437a22.jpg">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret"> $20</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Resident Evil 4', 20, 'https://lcdn.altex.ro/resize/media/catalog/product/r/e/2bd48d28d1c32adea0e55139a4e6434a/resident_evil_4_remake_ps5_2d_coperta_update_5b437a22.jpg', 'residentevil.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0
+                        L 56 0
+                        L 40 48
+                        L 0 48" stroke="none">
+                        </path>
+                    </svg>
+                    <div class="icon">
+                        <i class="fa fa-cart-plus"></i>
+                    </div>
+                    <div class="label">
+                        <span class="label-text">Add To Cart</span>
+                    </div>
+                </button>
+
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Resident Evil 4', 20, 'https://lcdn.altex.ro/resize/media/catalog/product/r/e/2bd48d28d1c32adea0e55139a4e6434a/resident_evil_4_remake_ps5_2d_coperta_update_5b437a22.jpg', 'residentevil.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0
+                                L 56 0
+                                L 40 48
+                                L 0 48" stroke="none">
+                        </path>
+                    </svg>
+                    <div class="icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="label">
+                        <span class="label-text">Add To Wishlist</span>
+                    </div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i>Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i>1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i>Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i>PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i>Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>In 2004, U.S. government agent Leon S. Kennedy (Paul Mercier) is on a mission to rescue Ashley Graham
+                (Carolyn Lawrence), the U.S. President's daughter, who has been abducted by a mysterious cult.[11] He
+                travels to an unnamed rural village in Spain,[12] where he encounters a group of hostile villagers who
+                pledge their lives to Los Iluminados, the cult that kidnapped Ashley. The villagers were once simple
+                farmers until becoming infected by a mind-controlling parasite known as Las Plagas.[13]
+
+                While in the village, Leon is captured by its chief, Bitores Mendez, and injected with Las Plagas.[14]
+                He finds himself held captive with Luis Sera (Rino Romano), a former police officer in Madrid, and
+                former Los Iluminados researcher.[15] The two work together to escape, but soon go their separate ways.
+                Leon finds out Ashley is being held in a church and rescues her.[16] They both escape from the church
+                after Osmund Saddler (Michael Gough), leader of Los Iluminados, reveals his plan to use the parasite
+                they injected into Ashley to manipulate her into injecting the president of the United States with a
+                "sample" once she returns home, allowing Saddler to begin his conquest of the world.[17]
+
+                After killing Mendez, Leon and Ashley try to take refuge in a castle but are attacked by more Iluminados
+                under the command of Ramon Salazar (Rene Mujica), another of Saddler's henchmen who owns the castle,[14]
+                and the two become separated by Salazar's traps. Meanwhile, Luis searches for pills that will slow Leon
+                and Ashley's infection, as well as a sample of Las Plagas. He brings the two items to Leon but is killed
+                by Saddler, who takes the sample, while the pills to suppress the infection remain in Leon's hands.[18]
+                While in the castle, Leon briefly encounters Ada Wong (Sally Cahill), a woman from his past who supports
+                him during his mission. He battles his way through the castle before killing Salazar.[19]
+
+                Afterward, Leon travels to a nearby island research facility, where he continues the search for Ashley.
+                He discovers that one of his former training comrades, Jack Krauser (Jim Ward), who was believed to have
+                been killed in a helicopter crash two years prior, is responsible for her kidnapping in an attempt to
+                get close enough to Saddler to steal his new Plagas sample.[20] Ada and Krauser are working with Albert
+                Wesker (Richard Waugh), for whom both intend to secure a Plagas sample, though Krauser is suspicious of
+                Ada.[21] Suspicious of the mercenary's intentions, Saddler orders Krauser to kill Leon, believing that
+                no matter which one dies, he will benefit.[22] After Krauser's defeat, Leon rescues Ashley, and they
+                remove the Plagas from their bodies using a specialized radiotherapeutic device. Leon confronts Saddler,
+                and with Ada's help, manages to kill him. However, Ada takes the sample from Leon at gunpoint before
+                escaping in a helicopter,[23] leaving Leon and Ashley to escape via her jet-ski as the island
+                explodes.[24] </p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>The player controls the protagonist, Leon S. Kennedy, from a third-person perspective. Departing
+                significantly from the series' previous games, the gameplay focuses on action and shootouts with fewer
+                survival horror elements. The camera is placed behind Leon and zooms in for an over-the-shoulder view
+                when aiming a weapon, or a first-person view when aiming with a sniper rifle.[2] There is no crosshair
+                for firearms; instead, every firearm has a laser sight. Unlike previous games where players can only
+                shoot straight, up, or down, players have more options. For example, shots to the feet can cause enemies
+                to stumble, and shots to the arms can make them drop their weapons. Players can also shoot down
+                projectiles like thrown axes or scythes.[3]
+                Resident Evil 4 adds context-sensitive controls. Based on the situation, players can interact with the
+                environment: kicking down a ladder, jumping out of a window, dodging an attack or executing a "finishing
+                move" on weakened enemies. There are also quick time events, in which the player must press buttons
+                indicated on-screen to execute actions such as dodging a falling boulder or wrestling an enemy to stay
+                alive. These are often incorporated into the game's many boss fights, in which the player must avoid
+                instant-kill attacks.[4]
+
+                The main enemies are violent villagers referred to as Los Ganados ("The Cattle" in Spanish). Unlike the
+                franchise's traditional zombies, Los Ganados can dodge, wield weaponry like chainsaws and projectile
+                weapons, and are capable of working collectively and communicating with each other. The villagers'
+                leaders may transform into grotesque monstrous forms to do battle with the player when encountered.
+                Other prominent enemies include the "Regeneradors", a type of mutated humanoid creature with potent
+                regenerative abilities; the troll-like El Gigante; and the gigantic sea creature Del Lago.[5]
+
+                The inventory system features a grid system, represented by an attaché case, that has each item take up
+                a certain number of spaces. The case can be upgraded several times, allowing for more space. Weapons,
+                ammunition, and healing items are kept in the case, while key items and treasures are kept in a separate
+                menu. Items may be bought from and sold to a merchant that appears in various locations. He sells first
+                aid sprays, weapons, allows for weapons to be upgraded and buys various treasures that Leon finds. The
+                various weapons each have their own advantages and disadvantages.[6][7]
+
+                Capcom added content for the PlayStation 2 version, which was later incorporated into the PC and Wii
+                releases. The largest addition is "Separate Ways", a side story which focuses on Ada Wong's involvement
+                in Resident Evil 4 and her connection to the series' villain Albert Wesker.[8] "Ada's Report", a
+                five-part documentary, analyzes Ada's relationship with Wesker and his role in the plot.[9] Other
+                unlockable content in all versions includes the minigame "The Mercenaries" and short scenario
+                "Assignment Ada" (using Ada to retrieve Las Plagas samples), new costumes for Leon and Ashley, new
+                weapons, and a cutscene browser.[10]</p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/c0WpfaeafLg?si=kD_q9hCKXrRS2szV"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="info_joc.js"></script>
+    <script src="add_to_cart.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

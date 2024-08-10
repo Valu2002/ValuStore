@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Need for Speed</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Need for Speed</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>3.79</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/j/o/2bd48d28d1c32adea0e55139a4e6434a/jocps4nfs-need_for_speed_ps4_coperta_2d_1.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$15.99</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Need for Speed', 15.99, 'https://lcdn.altex.ro/resize/media/catalog/product/j/o/2bd48d28d1c32adea0e55139a4e6434a/jocps4nfs-need_for_speed_ps4_coperta_2d_1.jpg', 'nfs.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Need for Speed', 15.99, 'https://lcdn.altex.ro/resize/media/catalog/product/j/o/2bd48d28d1c32adea0e55139a4e6434a/jocps4nfs-need_for_speed_ps4_coperta_2d_1.jpg', 'nfs.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Need for Speed is a 2015 online racing video game developed by Ghost Games and published by Electronic
+                Arts. The game was released for PlayStation 4 and Xbox One in November 2015, while a Windows version
+                released in March 2016. It is the twenty-second Need for Speed installment, and serves as a reboot of
+                the franchise.
+
+                Need for Speed received mixed reviews from critics, who praised the game's visuals and customization but
+                criticized it for being always-online with the inability to pause, which would also lead to performance
+                issues on all platforms. The game was succeeded by Need for Speed Payback in 2017.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>The first gameplay footage of the pre-alpha build for Need for Speed was revealed at EA's press
+                conference at E3 on June 15, 2015. The E3 presentation shows a part of the story, followed by the
+                customization of a Subaru BRZ which showed the new and improved customization system, and the 'action
+                camera' which was later revealed to be one of the five different camera angles. There are five different
+                gameplay types: Speed, Style, Crew, Build, and Outlaw where players can earn points for engaging in to
+                progress in the game through five overlapping storylines. Need for Speed takes place in the fictional
+                city of Ventura Bay and its surroundings which is based on Los Angeles.[3][4][5]
+
+                Need for Speed has a redesigned 'Wrap Editor', and body modifications return to the series after nearly
+                five years. The game features real-life tuning companies including RAUH-Welt Begriff, SEIBON, and RTR
+                Mustang. A new 'Handling Slider' was exhibited in the E3 gameplay video, which combines the best
+                elements of the earlier Black Box titles' grippy tires, as well as the drift style of the newer
+                Criterion titles.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Y5wssYZHVWc?si=zZmzJiWzkYBieaqq"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

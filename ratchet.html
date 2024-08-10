@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Ratchet & Clank: Rift Apart</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Ratchet & Clank: Rift Apart</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.27</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/R/a/2bd48d28d1c32adea0e55139a4e6434a/Ratchet-and-Clank-Rift-Apart-PS5-2D-Coperta-update.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$23.49</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Ratchet & Clank: Rift Apart', 23.49, 'https://lcdn.altex.ro/resize/media/catalog/product/R/a/2bd48d28d1c32adea0e55139a4e6434a/Ratchet-and-Clank-Rift-Apart-PS5-2D-Coperta-update.jpg', 'ratchet.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Ratchet & Clank: Rift Apart', 23.49, 'https://lcdn.altex.ro/resize/media/catalog/product/R/a/2bd48d28d1c32adea0e55139a4e6434a/Ratchet-and-Clank-Rift-Apart-PS5-2D-Coperta-update.jpg', 'ratchet.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Some time after the events of Into the Nexus, Ratchet and Clank are celebrated as galactic heroes during
+                a parade hosted by Captain Quark, Skid McMarx, and Rusty Pete on Corson V. During it, Clank reveals that
+                he has repaired the Dimensionator, a device capable of opening rifts to other dimensions so that Ratchet
+                can search for the Lombax race and his missing family. However, Doctor Nefarious attacks the parade and
+                attempts to steal the Dimensionator. During the struggle, Ratchet unthinkingly shoots the Dimensionator,
+                which causes dimensional rifts to begin opening randomly. Ratchet, Clank, and Dr. Nefarious are
+                transported to an alternate universe, where the Dimensionator explodes, damaging the fabric of space and
+                time and separating the three. Clank awakens to find himself alone and now missing his right arm from
+                the blast. He is discovered and picked up by a female Lombax named Rivet. Meanwhile, Dr. Nefarious ends
+                up in a throne room, where he is mistaken for Emperor Nefarious, an alternate version of himself who,
+                unlike him, has never been defeated and rules over the galaxy. Ratchet, elsewhere, finds himself alone
+                and starts his search for Clank. With the emperor currently absent on a conquest, Dr. Nefarious secretly
+                assumes his identity and sends his new minions after Ratchet and Rivet.
+
+                While searching, Ratchet witnesses Rivet escaping the planet with Clank. Ratchet encounters Phantom (the
+                alternate Skidd), a member of the Resistance opposed to Emperor Nefarious, which Rivet is a part of, who
+                gifts him an electronic helper named Glitch to help him get a ship to follow her. Rivet takes Clank to
+                her hideout on Sargasso to interrogate him, not believing his words about the dimensional rifts due to
+                her distrust in robots. They discover a dimensional anomaly on the planet which Clank investigates,
+                making contact with a prophet named Gary, who enlists his help in repairing other dimensional anomalies
+                to prevent the Dimensional Cataclysm. Rivet learns the truth by looking into Clank's memories and
+                repairs Clank's communicator so they are able to get in contact with Ratchet and come up with a plan to
+                rebuild the Dimensionator so they can return to their own home dimension and stop the Dimensional
+                Cataclysm.
+
+                Ratchet heads out to find the blueprint for the Dimensionator, and recruits one of Gary's robot
+                apprentices, Kit, to be his partner. Kit warns Ratchet that she is a Warbot built by Emperor Nefarious
+                and worries she might lose control of her programming and attack him, but Ratchet reassures her that
+                they make a good team. They then head to a secret lab on Cordelion to forge a new Dimensionator, while
+                Rivet and Clank head out to Blizar Prime to gather the Phase Quartz needed to power it. After it is
+                accidentally destroyed, the two search for the mythical Fixer on Torren IV who can repair anything and
+                convince him to overcome his own self-doubt to repair the Phase Quartz. Ratchet and Rivet then finally
+                meet in the Scarstu Debris Field, with Clank reuniting with Ratchet and Kit agreeing to become Rivet's
+                partner. They complete the Dimensionator, only for Dr. Nefarious to arrive and steal it. Dr. Nefarious
+                is defeated in battle, but the real Emperor Nefarious arrives, easily defeating Ratchet and Rivet and
+                stealing the Dimensionator for himself, which he plans to use to eliminate Captain Quantum (the
+                alternate Captain Qwark) and destroy the Resistance once and for all.
+
+                Rivet pursues Emperor Nefarious, but he uses the Dimensionator to banish her to a pocket dimension. As
+                Rivet searches for a rift to escape through, she tells Kit about how she lost her arm to a Warbot
+                attack, with Kit realizing she was the one responsible. Meanwhile Ratchet heads out to Ardolis to try
+                and warn Captain Quantum, but fails to stop Emperor Nefarious from banishing Captain Quantum through a
+                rift. Emperor Nefarious celebrates finally conquering the universe but doesn't feel fulfilled until he
+                realizes he can use the Dimensionator to conquer every dimension. Spying on Emperor Nefarious using a
+                device that Quantum bugged on him, Ratchet and Rivet realize Emperor Nefarious will need the Dimensional
+                Map and head out to intercept him. Rivet and Kit board Emperor Nefarious' flagship and rescue Gary, who
+                reveals he hid the Dimensional Map inside a dimensional anomaly. Ratchet and Clank recover the
+                Dimensional Map but are ambushed by Emperor Nefarious and banished through a rift. Kit transforms into
+                her Warbot form to try and stop Emperor Nefarious, shocking Rivet, but Kit ends up being banished
+                through a rift as well.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>The game shares many gameplay similarities with Ratchet & Clank (2016) and other entries in the series.
+                It retains elements of previous Ratchet & Clank games, such as strafing, gunplay, collection of bolts,
+                automatic weapon and health upgrades, manual Raritanium weapon upgrading and gadgets. The main playable
+                character is Ratchet. He is accompanied by his robotic friend and sidekick Clank, who is hung on his
+                back. Additionally, the game has a playable female Lombax named Rivet, as well as a robot similar to
+                Clank, Kit.[4][6] The player navigates Ratchet and Rivet through diverse environments across a multitude
+                of levels, defeating enemies with an array of varied weapons and gadgets, and traversing obstacles to
+                complete key mission objectives.[7]
+
+                The game introduces to the series the concept of real-time near instantaneous travel between different
+                areas, planets and other worlds within gameplay scenes via a system of inter-dimensional portals.[8] In
+                order for the player to utilize this feature, a new mechanic dubbed the "Rift Tether" is introduced in
+                Ratchet and Rivet's arsenal that pulls them from one side of a portal to another, allowing them to move
+                quickly between points.[8] The game features the return of planets explored in previous entries with a
+                dimensional twist, through their alternate counterparts, alongside new planets not seen previously in
+                the franchise.[9] The game features enhanced mobility and traversal options with the addition of moves
+                such as dashing and wall running.[10] In addition, the game's arsenal features a mix of brand new
+                weapons and returning classics from prior installments.[11]
+
+                The game features an assortment of accessibility options, including a high contrast mode and toggles for
+                simplified traversal, camera sensitivity, flight assistance, etc., to ensure that all players can enjoy
+                the gameplay and complete the story.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/55PRv_e00wc?si=attlMELewFUqPgEZ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

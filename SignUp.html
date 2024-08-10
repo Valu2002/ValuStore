@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sign Up | ValuStore</title>
+    <script type="module" src="client.js"></script>
+</head>
+
+<body class="signup-body">
+
+    <div class="wrapper2">
+        <div class="form-box">
+            <a href="recente.html" class="close-button">&times;</a>
+            <div class="register-container" id="register">
+                <div class="top-signup">
+                    <span>Have an account? <a href="SignIn.html" onclick="login()">Login</a></span>
+                    <header class="header-signup">Sign Up</header>
+                </div>
+                <form id="signup-form" action="">
+                    <div class="two-forms">
+                        <div class="input-box-signup">
+                            <input type="text" id="first_name" name="first_name" class="input-field" placeholder="First Name" required>
+                            <i class="bx bx-user"></i>
+                        </div>
+                        <div class="input-box-signup">
+                            <input type="text" id="last_name" name="last_name" class="input-field" placeholder="Last Name" required>
+                            <i class="bx bx-user"></i>
+                        </div>
+                    </div>
+                    <div class="input-box-signup">
+                        <input type="email" id="email" name="email" class="input-field" placeholder="Email" required>
+                        <i class="bx bx-envelope"></i>
+                    </div>
+                    <div class="input-box-signup">
+                        <input type="password" id="password" name="password" class="input-field" placeholder="Password" required>
+                        <i class="bx bx-lock-alt"></i>
+                    </div>
+                    <div class="input-box-signup">
+                        <button id="submit" type="submit" class="submit">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

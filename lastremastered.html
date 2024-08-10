@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>The Last of Us: Remastered</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">The Last of Us: Remastered</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.78</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/T/h/2bd48d28d1c32adea0e55139a4e6434a/The-Last-of-Us-Remastered-PlayStation-Hits-PS4-2D-Coperta.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$12.90</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('The Last of Us: Remastered', 12.90, 'https://lcdn.altex.ro/resize/media/catalog/product/T/h/2bd48d28d1c32adea0e55139a4e6434a/The-Last-of-Us-Remastered-PlayStation-Hits-PS4-2D-Coperta.jpg', 'lastremastered.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('The Last of Us: Remastered', 12.90, 'https://lcdn.altex.ro/resize/media/catalog/product/T/h/2bd48d28d1c32adea0e55139a4e6434a/The-Last-of-Us-Remastered-PlayStation-Hits-PS4-2D-Coperta.jpg', 'lastremastered.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>In 2013, an outbreak of a mutant Cordyceps fungus ravages the United States, transforming its human hosts
+                into aggressive creatures. In the suburbs of Austin, Texas, Joel (Troy Baker) flees the chaos with his
+                brother, Tommy (Jeffrey Pierce), and daughter, Sarah (Hana Hayes). As they flee, Sarah is shot by a
+                soldier and dies in Joel's arms.
+
+                Twenty years later, civilization has been decimated by the infection. Joel works as a smuggler with his
+                partner, Tess (Annie Wersching), in a quarantine zone in Boston, Massachusetts. They hunt down Robert
+                (Robin Atkin Downes), a black-market dealer, to recover a stolen weapons cache. Before Tess kills him,
+                Robert reveals he traded the cache with the Fireflies, a rebel militia opposing the quarantine zone
+                authorities. The Fireflies' leader, Marlene (Merle Dandridge), promises to double their cache in return
+                for smuggling a teenage girl, Ellie (Ashley Johnson), to Fireflies hiding in the Massachusetts State
+                House. While sneaking out at night, Joel and Tess discover Ellie is infected; she claims she is immune
+                and may lead to a cure. At the State House, the trio discover the Fireflies have been killed and Tess
+                reveals she has been infected. Believing in Ellie's importance, she sacrifices herself against pursuing
+                soldiers so Joel and Ellie can escape. Joel decides to find Tommy, a former Firefly, in the hope that he
+                can locate others.
+
+                With the help of Bill (W. Earl Brown), a smuggler and survivalist in Lincoln, Massachusetts, Joel and
+                Ellie acquire a working vehicle. Driving into Pittsburgh, Pennsylvania, Joel and Ellie are ambushed by
+                bandits and their car is wrecked. They ally with two brothers, Henry (Brandon Scott) and Sam (Nadji
+                Jeter). After they escape the city, Sam is bitten but hides it from the group. As his infection takes
+                hold, Sam attacks Ellie, but Henry shoots him dead before taking his own life.
+
+                In the fall, Joel and Ellie find Tommy in Jackson, Wyoming, where he has assembled a fortified
+                settlement near a hydroelectric dam with his wife, Maria (Ashley Scott). Joel leaves Ellie with Tommy,
+                but after she confronts him about Sarah, he lets her stay. Tommy directs them to a Firefly enclave at
+                the University of Eastern Colorado. They find the university abandoned but learn the Fireflies have
+                moved to a hospital in Salt Lake City, Utah. The two are attacked by bandits and Joel is severely
+                wounded while escaping.
+
+                During the winter, Ellie and Joel shelter in the mountains. Joel is on the brink of death and relies on
+                Ellie to care for him. Hunting for food, Ellie encounters David (Nolan North) and James (Reuben
+                Langdon), scavengers willing to trade medicine for food. After David reveals the university bandits were
+                part of his group, Ellie becomes hostile. She leads David's group away from Joel but is captured; David
+                intends to recruit her into his cannibal group. Ellie escapes after killing James, but David corners her
+                in a burning restaurant. Meanwhile, Joel recovers from his wounds and sets out to find Ellie. He reaches
+                her just as she kills David with a machete, an act that traumatizes her, and Joel comforts her before
+                they flee.
+
+                In the spring, Joel and Ellie arrive in Salt Lake City. Ellie is rendered unconscious after almost
+                drowning before they are captured by a Firefly patrol. In the hospital, Marlene tells Joel that Ellie is
+                being prepared for surgery: in hopes of producing a vaccine for the infection, the Fireflies must remove
+                the infected portion of Ellie's brain, which will kill her. Unwilling to let Ellie die, Joel battles his
+                way to the operating room, and kills the lead surgeon. Joel carries the unconscious Ellie to the parking
+                garage, where he is confronted by Marlene, whom he shoots dead to prevent the Fireflies from pursuing
+                them. On the drive out of the city, when Ellie wakes up, Joel lies and tells her that the Fireflies had
+                found other immune people but were unable to create a cure and have stopped trying. On the outskirts of
+                Tommy's settlement, Ellie expresses her survivor guilt. At her insistence, Joel swears his story about
+                the Fireflies is true.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>The Last of Us is an action-adventure game played from a third-person perspective.[1] The player
+                traverses post-apocalyptic environments such as towns, buildings, forests, and sewers to advance the
+                story. The player can use firearms, improvised weapons, hand-to-hand combat, and stealth to defend
+                against hostile humans and cannibalistic creatures infected by a mutated strain of the Cordyceps fungus.
+                For most of the game, the player takes control of Joel, a man tasked with escorting a young girl, Ellie,
+                across the United States.[2] The player also controls Ellie throughout the game's winter segment[3] and
+                briefly controls Joel's daughter, Sarah, in the opening sequence.
+                In combat, the player can use long-range weapons, such as a rifle, a shotgun, and a bow, and short-range
+                weapons such as a handgun and a short-barreled shotgun. The player is able to scavenge limited-use melee
+                weapons, such as pipes and baseball bats, and throw bottles and bricks to distract, stun, or attack
+                enemies.[6] The player can upgrade weapons at workbenches using collected items. Equipment such as
+                health kits, shivs, and Molotov cocktails can be found or crafted using collected items. Attributes such
+                as the health meter and crafting speed can be upgraded by collecting pills and medicinal plants. Health
+                can be recharged by finding edible items or through the use of health kits.[7]
+
+                Though the player can attack enemies directly, they can also use stealth to attack undetected or sneak
+                by them. "Listen Mode" allows the player to locate enemies through a heightened sense of hearing and
+                spatial awareness, indicated as outlines visible through walls and objects.[5] In the dynamic cover
+                system, the player can crouch behind obstacles to gain a tactical advantage during combat.[8] The game
+                features periods without combat, often involving conversation between the characters.[9] The player can
+                solve simple puzzles, such as using floating pallets to move Ellie, who is unable to swim, across bodies
+                of water and using ladders or dumpsters to reach higher areas. Story collectibles, such as notes, maps
+                and comics, can be scavenged and viewed in the backpack menu.[10]
+
+                The game features an artificial intelligence system by which hostile human enemies react to combat. If
+                enemies discover the player, they may take cover or call for assistance, and can take advantage of the
+                player when they are distracted, out of ammunition, or in a fight. Player companions, such as Ellie, can
+                assist in combat by throwing objects at threats to stun them, announcing the location of unseen enemies,
+                or using a knife and pistol to attack enemies.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ygVPHxkokAE?si=SYIdIlvrStU_W0py"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

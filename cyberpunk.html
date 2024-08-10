@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Cyberpunk 2077 Ultimate Edition</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Cyberpunk 2077 Ultimate Edition</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>3.33</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/c/y/2bd48d28d1c32adea0e55139a4e6434a/cyberpunk_2077_ultimate_edition_ps5_2d_coperta_2e0307c6.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$49.46</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Cyberpunk 2077 Ultimate Edition', 49.46, 'https://lcdn.altex.ro/resize/media/catalog/product/c/y/2bd48d28d1c32adea0e55139a4e6434a/cyberpunk_2077_ultimate_edition_ps5_2d_coperta_2e0307c6.jpg', 'cyberpunk.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Cyberpunk 2077 Ultimate Edition', 49.46, 'https://lcdn.altex.ro/resize/media/catalog/product/c/y/2bd48d28d1c32adea0e55139a4e6434a/cyberpunk_2077_ultimate_edition_ps5_2d_coperta_2e0307c6.jpg', 'cyberpunk.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>The game begins with the selection of one of three lifepaths for the player character V: Nomad,
+                Streetkid, or Corpo. All three lifepaths involve V starting a new life in Night City with local thug
+                Jackie Welles and working together as mercenaries with a netrunner, T-Bug.
+
+                In 2077, local fixer Dexter "Dex" DeShawn hires V and Jackie to steal a biochip known as "the Relic"
+                from Arasaka Corporation. They acquire the Relic, but the plan goes awry when they witness the murder of
+                the megacorp's leader Saburo Arasaka at the hands of his son Yorinobu. Yorinobu covers up the murder as
+                poisoning and triggers a security sweep, in which Arasaka's netrunners kill T-Bug. V and Jackie escape,
+                but the Relic's protective case is damaged and Jackie is fatally wounded in the process, forcing V to
+                insert the biochip into the cyberware in their head.
+
+                Furious at the unwanted police attention, Dex shoots V in the head and leaves them for dead in a
+                landfill. Upon awakening, V is haunted by the digital ghost of war veteran turned iconic rock star and
+                terrorist Johnny Silverhand, believed to have died in 2023 during his own thermonuclear attack on
+                Arasaka Tower. V is then rescued by Saburo's bodyguard Goro Takemura on Arasaka's orders, as they are
+                the prime suspect in Saburo's death. Upon recovering, V learns from their ripperdoc Viktor Vector that
+                Dex's bullet triggered resurrection nanotech on the biochip, repairing the damage to V's brain but
+                starting an irreversible process that would overwrite V’s behaviour and memories with Johnny’s, whose
+                memory engram is stored on the chip, leaving V only a few weeks before the process completes. The
+                biochip cannot be removed without instantly killing V, so V must find a way to remove Johnny and
+                survive.
+
+                Takemura later realizes V is innocent of Saburo's murder, and decides to work with them to avenge it.
+                From here, V is able to follow up on two different leads: tracking down Arasaka's head doctor Anders
+                Hellman, which V accomplishes by working with Panam Palmer, a member of the Aldecaldos nomad clan; and
+                finding and rescuing Evelyn Parker, Dex's client who commissioned the gig.
+
+                After finding and capturing Anders, V attempts to contact Evelyn Parker for help, only to learn that she
+                was kidnapped by the Death's Head gang. With the help of Evelyn's friend Judy Álvarez, they are able to
+                save her, but Evelyn is in a near-death state, leaving her unable to help. By viewing Evelyn's memories
+                through a braindance, V is able to get in contact with the Voodoo Boys, a gang of netrunners.
+
+                Through the Voodoo Boys, V relives Johnny's memories, learning that in 2013, Johnny's then-girlfriend
+                Alt Cunningham created Soulkiller, an artificial intelligence able to copy netrunners' minds through
+                their neural links, but destroyed the target's brain in the process. Arasaka kidnapped Alt and forced
+                her to create their own version of Soulkiller, which would store the minds of its targets in Arasaka's
+                digital fortress, Mikoshi. With the help of his friend Rogue Amendiares, Johnny led a rescue effort to
+                save Alt, but failed to find her before Arasaka used Soulkiller on her; Johnny's later thermonuclear
+                attack was a cover to free Alt's consciousness from Arasaka's subnet, but Arasaka's head of security
+                Adam Smasher captured him and used Soulkiller on him as well. By 2077, Arasaka was advertising a "Secure
+                Your Soul" program and conducting secret research into writing a digital copy of a mind into a living
+                human brain, from which the Relic arose.
+
+                V also gets in contact with Alt's consciousness, which has escaped beyond the Blackwall, a firewall
+                which protects the net from rogue AIs. With Johnny's mediation, V makes a deal with Alt, that if they
+                can give Alt access to Arasaka's subnet and gain physical access to Mikoshi, Alt can use Soulkiller to
+                separate V's and Johnny's consciousness.
+
+                Working with Takemura, V helps him capture Yorinobu's sister, Hanako Arasaka, to convince her of
+                Yorinobu's treachery. After defeating Takemura's former student Oda, they are able to get Hanako to a
+                safe house and convince her of V's innocence, but Arasaka soldiers attack, forcing V to flee.
+                Eventually, V must decide whether to mount an attack on Arasaka Tower to gain physical access to Mikoshi
+                and use Soulkiller to remove Johnny from their body, or to make a deal with Hanako to extract the Relic.
+
+                If V chooses to attack Arasaka Tower, depending upon player actions throughout the game, V can choose
+                different options to conduct the attack. V can allow Johnny to take over and stage the attack with
+                Rogue, suppress Johnny and mount the attack with their nomad allies from the Aldecaldos clan, mount the
+                attack solo, or simply commit suicide. All options (except for the suicide one) end with V defeating
+                Adam Smasher. If V chooses to make a deal with Hanako instead, they convince the Arasaka board that
+                Yorinobu killed Saburo, and oust Yorinobu as CEO, with V defeating Smasher. Hanako honors her deal with
+                V and, after inserting an engram of Saburo into Yorinobu to avenge Saburo's murder, has Arasaka doctors
+                extract the Relic from V. In all cases, it is revealed that the damage to V's body is irreversible.
+                Depending on player choice, V either requests Arasaka upload them into Mikoshi until a suitable host
+                body is found, remains in their body with an uncertain life expectancy, or allows Johnny to take over
+                permanently (only achievable through attacking Arasaka). If V assaults Arasaka and chooses to remain in
+                their body, they either become a Night City legend, or leave Night City with the Aldecaldos clan hoping
+                to find a way to prolong their lifespan. If V surrenders their body to Johnny, the latter pays his
+                respects to his friends and leaves Night City to start a new life.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Cyberpunk 2077 is an action role-playing game[1] played from a first-person perspective as V,[2] a
+                mercenary whose voice,[3] face, hairstyle, body type and modifications, background, and clothing are
+                customisable. There are also five attributes (Body, Intelligence, Reflexes, Technical, and Cool) that
+                can be customized to suit the player's gameplay style.
+
+                The gameplay is flexible: the three primary play styles are Netrunner (hacking), Techie (machinery), and
+                Solo (combat). V has a number of maneuvers to reposition in combat, including sprinting, taking cover,
+                double-jumping, and sliding;[4][5] many of these abilities can be unlocked or upgraded through cyberware
+                implants installed by a "ripperdoc".[6] Weapon use increases accuracy and reloading speed, which are
+                reflected in character animations.[7] Equipment, such as weapons and armor, is governed by a coloured
+                tier system[8] and is split into melee and ranged options. Melee strikes can be dealt with close-combat
+                weapons.[9][10] There are three types of ranged weapons, all of which can be customised and
+                modified—Power (with ricocheting bullets), Tech (which penetrates walls and enemies), and Smart (with
+                homing bullets, only usable with specific cyberware).[11][12] The game has four types of damage that can
+                be inflicted and resisted—Physical, Thermal, Electric, and Chemical.[13][14][15] The game can be
+                completed without killing anyone (not including robots),[16] with non-lethal options for weapons and
+                cyberware.[17]
+
+                The open world metropolis of Night City consists of six regions: the corporate City Centre,
+                immigrant-inhabited Watson, luxurious Westbrook, suburban Heywood, gang-infested Pacifica (and its
+                anarchist Dogtown section), and industrial Santo Domingo. Its surrounding area, the Badlands, can also
+                be explored. V navigates these locations on foot (in first-person view) and in vehicles (in either a
+                third- or first-person view).[6] V owns an apartment and has access to a garage, and can purchase four
+                additional apartments throughout the city.[9] There is a full day-night cycle and dynamic weather, which
+                affects the way non-player characters (NPCs) behave.[11][18] Depending on the location, law enforcement
+                may be alerted if V commits a crime.[19] Pedestrians are vulnerable to vehicular collisions and
+                gunfire.[12][20] Radio stations are available to listen to.[21][22] Night City features many
+                non-English-speaking characters, whose languages can be translated with special implants.[23] V also
+                periodically uses a "Braindance," a device that allows one to undergo other people's
+                experiences.[24][25]
+
+                Branching dialogues enable interaction with NPCs and actions in quests[26] and the player's in-game
+                choices can lead to different endings.[25] Experience points are obtained from main quests and used to
+                upgrade stats; side quests yield "street cred", unlocking skills, vendors, places, and additional
+                quests.[8][11][12][27] Quests are acquired from characters known as Fixers.[12] Throughout the game, V
+                is aided by various companions.[9] Consumables, such as food, drinks, and drugs, are used for healing
+                and temporary enhancements, and objects can be inspected in V's inventory.[5] Minigames include hacking,
+                boxing, auto racing,[28] martial arts, and shooting ranges.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8X2kIfS6fb8?si=3iLYwOHvbj51vum9"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

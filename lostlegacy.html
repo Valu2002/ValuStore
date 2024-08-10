@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Uncharted: The Lost Legacy</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Uncharted: The Lost Legacy</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.74</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/U/n/2bd48d28d1c32adea0e55139a4e6434a/Uncharted_The_Lost_Legacy_PS4_2D_Coperta_PlayStation_Hits_25cdf68b.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$13.95</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Uncharted: The Lost Legacy', 13.95, 'https://lcdn.altex.ro/resize/media/catalog/product/U/n/2bd48d28d1c32adea0e55139a4e6434a/Uncharted_The_Lost_Legacy_PS4_2D_Coperta_PlayStation_Hits_25cdf68b.jpg', 'lostlegacy.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Uncharted: The Lost Legacy', 13.95, 'https://lcdn.altex.ro/resize/media/catalog/product/U/n/2bd48d28d1c32adea0e55139a4e6434a/Uncharted_The_Lost_Legacy_PS4_2D_Coperta_PlayStation_Hits_25cdf68b.jpg', 'lostlegacy.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>In India, treasure hunter Chloe Frazer (Claudia Black) searches for the legendary tusk of Ganesh, the son
+                of Hindu god Shiva, who lost the tusk while defending his father's temple. Chloe's father was killed by
+                bandits while searching for the tusk. Chloe slips past insurgents and meets up with mercenary Nadine
+                Ross (Laura Bailey). They sneak into the office of the insurgents' leader, Asav (Usman Ally) a former
+                acquaintance of Nadine, who wants to use the tusk to rally India into a civil war. Chloe and Nadine
+                steal a map pointing toward the tusk within the ancient Hoysala Empire and a disc that acts as a key.
+
+                In India's Western Ghats, Chloe and Nadine follow the trail of several towers emblazoned with Hindu
+                weapons: Ganesh's trident, Shiva's bow, and the axe of Parashurama, who used the axe to remove the tusk.
+                The trail leads them to one of Hoysala's two capitals, Halebidu, whose last emperor left to be conquered
+                by the Persians seemingly out of vanity. They realize the emperor left a false trail; the tusk is at the
+                older capital, Belur. On the way there, they escape Asav and his men but lose the disc. While spying on
+                Asav's forces, Nadine sees her old enemy Samuel Drake (Troy Baker); she realizes he is Asav's expert.
+                When she expresses her intention to kill Sam, primarily due to the events that transpired in Libertalia,
+                Chloe reveals she was working with him before he was abducted. Feeling angry and betrayed, Nadine
+                separates from Chloe, but they make amends.
+
+                At Belur, they navigate several puzzles before being captured by Asav, who has realized that Sam is no
+                expert and was misleading them the whole time, forcing Chloe to use the disc to reveal the tusk. In the
+                process, she discovers that Ganesh allowed Parashurama to cut off his tusk; as Shiva gave the axe to
+                him, Ganesh did not want to shame his father by proving the axe useless. Asav triggers a trap and leaves
+                Chloe, Nadine and Sam to drown. Chloe picks the locks on their handcuffs and they escape. Despite
+                tensions between Nadine and Sam, the three chase after Asav to take back the tusk. Nadine is enraged to
+                find that Asav is working with Shoreline, the mercenary group she used to run and from which she was
+                ousted.
+
+                Asav trades the tusk to Orca (Gideon Emery), Nadine's former lieutenant, who now runs Shoreline. Chloe,
+                Nadine and Sam take down Orca's helicopter and learn that Asav traded the tusk for a bomb he plans to
+                detonate in the capital and trigger a civil war. Orca pulls a gun on Nadine, but Sam saves her, allowing
+                her to kill Orca. Commandeering a jeep, the three catch up to the train carrying the bomb. The women
+                board the train and fight through Asav's men. Chloe and Sam switch the tracks, redirecting the train
+                away from the city. In the engine car, Chloe and Nadine fight Asav, whose leg gets trapped under the
+                bomb. They jump to safety before the train falls from a collapsed bridge and explodes, killing Asav.
+                Chloe and Nadine decide to partner up, while Sam reacts with horror at their intentions to donate the
+                tusk to the Ministry of Culture instead of selling it.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Uncharted: The Lost Legacy is an action-adventure game played from a third-person perspective, with
+                platform game elements and set in the Indian Peninsula. Players control Chloe Frazer—a treasure hunter
+                who is physically adept and can jump, sprint, climb, swim, swing, and perform other acrobatic
+                actions.[2] Players traverse several environments, moving through locations including towns, buildings,
+                and temples to advance through the game's story.[3] Players use firearms, melee combat, and stealth to
+                defend against the hostile enemies,[4] and also drive vehicles during some gameplay segments.
+                In combat, players can use long-ranged weapons, such as rifles and shotguns, and short-barreled guns
+                such as pistols and revolvers; handheld explosives such as grenades and C4 are also available.[4] Though
+                players can attack enemies directly, they have the option to use stealth tactics to attack undetected or
+                sneak by them; the game introduces silenced weapons. While the game is linear, environments feature
+                multiple paths for players to explore; maps are larger than those in Uncharted 4: A Thief's End.[5] The
+                game features an artificial intelligence system in which hostile enemies react to any combat situation
+                they are placed in; they respond to players' actions, coordinate tactics, and cooperate with each other.
+                Players' companions are also controlled by artificial intelligence and can assist in combat by throwing
+                objects at threats to stun them, announcing the location of unseen enemies, or using weapons to attack
+                enemies.[6] The game features periods without combat, often involving conversation between the
+                characters. Players also can decide the outcome of some conversations through a dialogue tree.[7]
+
+                The game gives access to the multiplayer of Uncharted 4, with additional content tied into The Lost
+                Legacy.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-PhhiKPHTWM?si=lFELyfo1CMBJlUSV"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

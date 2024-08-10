@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="wishlist.js"></script>
+    <title>Resident Evil 2</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Resident Evil 2</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>5</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/R/e/2bd48d28d1c32adea0e55139a4e6434a/Resident_Evil_2_PS4_2D_Packshot_f6c360f0.jpg">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret"> $20</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Resident Evil 2', 20, 'https://lcdn.altex.ro/resize/media/catalog/product/R/e/2bd48d28d1c32adea0e55139a4e6434a/Resident_Evil_2_PS4_2D_Packshot_f6c360f0.jpg', 'residentevil2.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0
+                        L 56 0
+                        L 40 48
+                        L 0 48" stroke="none">
+                        </path>
+                    </svg>
+                    <div class="icon">
+                        <i class="fa fa-cart-plus"></i>
+                    </div>
+                    <div class="label">
+                        <span class="label-text">Add To Cart</span>
+                    </div>
+                </button>
+
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Resident Evil 2', 20, 'https://lcdn.altex.ro/resize/media/catalog/product/R/e/2bd48d28d1c32adea0e55139a4e6434a/Resident_Evil_2_PS4_2D_Packshot_f6c360f0.jpg', 'residentevil2.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0
+                                L 56 0
+                                L 40 48
+                                L 0 48" stroke="none">
+                        </path>
+                    </svg>
+                    <div class="icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="label">
+                        <span class="label-text">Add To Wishlist</span>
+                    </div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i>Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i>1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i>Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i>PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i>Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>On the night of September 30, 1998[11] two months after the events of Resident Evil, rookie police
+                officer Leon S. Kennedy makes his way toward Raccoon City to start his first shift at the Raccoon City
+                Police Department. At a gas station on the city outskirts, he meets Claire Redfield, who is looking for
+                her brother, Chris Redfield. The gas station is suddenly overrun by zombies, as well as the rest of
+                Raccoon City, after a strain of the T-virus contaminated the city's water supply.[12] The two reach the
+                police station but are forced to separate when a truck crashes and explodes, and later discover the
+                station to be swarming with zombies. The player character finds an infected Lieutenant Marvin Branagh,
+                who reveals a secret passage leading out of the station before later succumbing to his bite. While
+                exploring the police station, the player character may also be pursued by the Tyrant, a humanoid
+                bioweapon created and programmed by the Umbrella Corporation to eliminate everyone within the station.
+                The player character[b] eventually reaches the underground passage, where they are attacked by a mutated
+                William Birkin, Umbrella's leading scientist, whom they fight off before escaping.
+
+                In the parking garage, Leon is attacked by zombie dogs, but is saved by Ada Wong. Ada claims to be an
+                FBI agent sent to retrieve an incriminating sample of the G-virus, the virus responsible for Birkin's
+                mutation, which he developed with his wife and coworker Annette.[13] Meanwhile, Claire finds paperwork
+                revealing her brother had left Raccoon City weeks prior to investigate Umbrella overseas. She runs into
+                a lost Sherry Birkin, the young daughter of William and Annette, and resolves to protect her.
+
+                After investigating Umbrella, news reporter Ben Bertolucci is detained in a holding cell by the corrupt
+                police chief and serial killer Brian Irons, who has been covering up Umbrella's activities. As Ben tries
+                to convince Leon to release him, the Tyrant suddenly attacks them, killing the former. Leon and Ada flee
+                and reach Robert Kendo's gun shop, where they find Robert and his infected daughter Emma. Witnessing
+                Robert put down his daughter before committing suicide, Leon decides to help Ada retrieve the G-virus
+                sample to expose Umbrella's corruption. The two encounter Annette in the sewers, who shoots Leon in the
+                back before escaping to Umbrella's underground lab, NEST, unwilling to give up the G-virus sample.[14]
+                Leon recovers; he and Ada kiss as they descend into NEST.
+
+                Meanwhile, Sherry is abducted and taken to the Raccoon City Orphanage by Irons.[15] William arrives and
+                injects Irons with a "G-embryo", which bursts from Irons' stomach, killing him. He incapacitates Claire
+                and deliberately infects Sherry, confident that her body will accept the G-virus and allow it to
+                replicate.[16]
+
+                Finding Sherry and descending underground into NEST, Claire retrieves a vaccine for the G-virus, which
+                Annette administers to her daughter. Meanwhile, Leon retrieves the G-virus sample and runs into Annette
+                again, who outs Ada as a mercenary intending to sell the sample to the highest bidder. William kills
+                Annette; Ada demands the sample from Leon at gunpoint, but is knocked off into the abyss below NEST,
+                along with the sample, as the facility starts to self-destruct.[17] Leon then defeats the mutated and
+                deadlier "Super Tyrant" after Ada, having survived her fall, throws him a rocket launcher before
+                departing. He, Claire, and Sherry escape on a train out of the facility, where they are attacked by
+                William once more in his final mutated form. Fortunately, the train decouples and William is destroyed
+                in the lab's destruction. As the three reach safety, Leon and Claire vow to continue their fight against
+                Umbrella.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Resident Evil 2 is a survival horror third person shooter game – unlike the remake of the first game,
+                which sought to update and improve the original experience, this remake reimagines the gameplay and
+                story for modern audiences.[2][3] The game is set in Raccoon City, a fictional mountain city in the
+                Midwest that is in the middle of a zombie apocalypse, and allows the player to choose from one of two
+                characters, Leon S. Kennedy or Claire Redfield. The protagonist chosen affects the weapons, areas,
+                items, subplot, supporting protagonist (Leon has Ada Wong, a mysterious federal agent investigating the
+                Umbrella Corporation, and Claire has Sherry Birkin, the young daughter of an Umbrella executive being
+                pursued by a monster) and the final boss.</p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/u3wS-Q2KBpk?si=2gbGK9_43OgqqRkE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="info_joc.js"></script>
+    <script src="add_to_cart.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+
+</body>
+
+</html>

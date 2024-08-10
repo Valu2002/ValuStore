@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <title>Deals</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a></li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item menu-item-active" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div>
+        <p class="action-text">Deals</p>
+    </div>
+
+    <div class="container-oferta">
+        <div class="product-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="poza-produs-oferta"
+                        src="https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/c16gs6a7lbAYzPf7ZTikbH1c.png?w=440&thumb=false"
+                        alt="Ghost of Tsushima Director's cut">
+                </div>
+                <div class="flip-card-back">
+                    <div class="back-image-overlay"></div>
+                    <h2 class="titlu-oferta">Ghost of Tsushima Director's cut</h2>
+                    <p class="text-oferta">-58%</p>
+                    <p class="text-oferta"><del>$69.99</del> $29.39</p>
+                    <a href="tsushima.html" class="see-product-button">See Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="poza-produs-oferta"
+                        src="https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/9978096069b4db29c36788e6da61f69941207341ba480e4d.png?w=440&thumb=false"
+                        alt="Mortal Kombat 1 Premium Edition">
+                </div>
+                <div class="flip-card-back">
+                    <div class="back-image-overlay"></div>
+                    <h2 class="titlu-oferta">Mortal Kombat 1 Premium Edition</h2>
+                    <p class="text-oferta">-60%</p>
+                    <p class="text-oferta"><del>$109.99</del> $43.99</p>
+                    <a href="mkpremium.html" class="see-product-button">See Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="poza-produs-oferta"
+                        src="https://image.api.playstation.com/vulcan/ap/rnd/202312/0701/de64753172dca1b06fc9ec1cd4abaeaa7f12ff7ac98f5a19.png?w=440&thumb=false"
+                        alt="Prince of Persia The Lost Crown">
+                </div>
+                <div class="flip-card-back">
+                    <div class="back-image-overlay"></div>
+                    <h2 class="titlu-oferta">Prince of Persia The Lost Crown</h2>
+                    <p class="text-oferta">-40%</p>
+                    <p class="text-oferta"><del>$49.99</del> $29.99</p>
+                    <a href="persia.html" class="see-product-button">See Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="poza-produs-oferta"
+                        src="https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png?w=440&thumb=false"
+                        alt="Resident Evil Village">
+                </div>
+                <div class="flip-card-back">
+                    <div class="back-image-overlay"></div>
+                    <h2 class="titlu-oferta">Resident Evil Village</h2>
+                    <p class="text-oferta">-60%</p>
+                    <p class="text-oferta"><del>$39.99</del> $15.99</p>
+                    <a href="village.html" class="see-product-button">See Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style = "padding-bottom: 30px">
+        
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+    
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+
+</body>
+
+</html>

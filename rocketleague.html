@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Rocket League</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Rocket League</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.35</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/J/O/2bd48d28d1c32adea0e55139a4e6434a/JOCPS4ROCKETUE_6ee48333.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$0</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Rocket League', 0, 'https://lcdn.altex.ro/resize/media/catalog/product/J/O/2bd48d28d1c32adea0e55139a4e6434a/JOCPS4ROCKETUE_6ee48333.jpg', 'rocketleague.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Rocket League', 0, 'https://lcdn.altex.ro/resize/media/catalog/product/J/O/2bd48d28d1c32adea0e55139a4e6434a/JOCPS4ROCKETUE_6ee48333.jpg', 'rocketleague.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Online play required</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Rocket League is a vehicular soccer video game developed and published by Psyonix. The game was first
+                released for PlayStation 4 and Windows in July 2015, with ports for Xbox One and Nintendo Switch being
+                released later on. Rocket League was available on Steam for Windows players and the PlayStation Store
+                for PlayStation 4 players. In June 2016, 505 Games began distributing a physical retail version for
+                PlayStation 4 and Xbox One, with Warner Bros. Interactive Entertainment taking over those duties by the
+                end of 2017. Versions for macOS and Linux were also released in 2016, but support for their online
+                services was dropped in 2020. Epic Games acquired Psyonix in 2019 and made the game free-to-play in
+                September 2020.
+
+                Described as "soccer, but with rocket-powered cars", Rocket League has up to eight players assigned to
+                each of the two teams, using rocket-powered vehicles to hit a ball into their opponent's goal and score
+                points over the course of a match. The game includes single-player and multiplayer modes that can be
+                played both locally and online, including cross-platform play between all versions. Later updates for
+                the game enabled the ability to modify core rules and added new game modes, including ones based on ice
+                hockey and basketball.
+
+                Rocket League is a sequel to Psyonix's Supersonic Acrobatic Rocket-Powered Battle-Cars, a 2008 video
+                game for the PlayStation 3. Battle-Cars received mixed reviews and was not a success, but gained a loyal
+                fan base. Psyonix continued to support themselves through contract development work for other studios
+                while looking to develop a sequel. Psyonix began formal development of Rocket League around 2013,
+                refining the gameplay from Battle-Cars to address criticism and fan input. Psyonix also recognized their
+                lack of marketing from Battle-Cars and engaged in both social media and promotions to market the game,
+                including offering the game for free for PlayStation Plus members on release.
+
+                Rocket League was praised for its gameplay improvements over Supersonic Acrobatic Rocket Powered
+                Battle-Cars, as well as its graphics and overall presentation, although some criticism was directed
+                towards the game's physics engine. It has since been considered one of the greatest video games ever
+                made. The game earned many industry awards and saw over 10 million sales and 40 million players by the
+                beginning of 2018. Rocket League has also been adopted as an esport, with professional players
+                participating through ESL and Major League Gaming along with Psyonix's own Rocket League Championship
+                Series (RLCS).
+            </p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Rocket League's gameplay is largely the same as that of its predecessor, Supersonic Acrobatic
+                Rocket-Powered Battle-Cars. Players control a rocket-powered car and use it to hit a ball that is much
+                larger than the cars towards the other team's goal area to score goals, in a way that resembles indoor
+                soccer, with elements reminiscent of a demolition derby.[1][2] Players' cars have the ability to jump to
+                hit the ball while in mid-air. The players can also pick up a speed boost by passing their cars over
+                marked spaces on the field, enabling them to quickly cross the field, use the added momentum to hit the
+                ball, or ram into another player's car to destroy it; in the latter case, the destroyed car respawns
+                moments later on their team's side of the field. A player may also use a boost when in the air to propel
+                themselves forward in flight, allowing players to hit the ball in the air. Players can alter their car's
+                orientation while midair, which combined with midair boosting allows for controlled flight. Players can
+                also perform quick dodges, causing their car to do a short jump and spin in a given direction, which can
+                be used to nudge the ball or gain positioning advantage over the other team.[3] In a recent update, the
+                game introduced a new feature that allows players to view the remaining boost amount of their
+                teammates.[4]
+
+                Matches are usually five minutes long, with a sudden death overtime if the game is tied at that
+                point.[5] Matches can be played from between one-on-one up to four-on-four players, as well as in casual
+                and ranked playlists.[6] The latter serves as Rocket League's competitive online mode, where players
+                compete in various tiered ranks within game seasons, with victories or losses raising or lowering a
+                player's rank, respectively.[7] The game includes a single-player Season mode, with the player competing
+                with computer-controlled players. An update in December 2016 introduced Custom Training sequences that
+                can be created by players and shared with others on the same platform; players are able to specify the
+                ball's path and the presence and skill of opponents on the field as to practice specific shots-on-goal
+                over and over.[8]
+
+                A few months after it was released, Psyonix released an update that added game modes known as mutators,
+                modifying some aspects of gameplay, such as increased or decreased gravity, ball size, ball speed and
+                bounciness.[9] For the 2015 holiday season, another update replaced mutator matches with an ice
+                hockey-inspired mode (called Snow Day), played on an ice rink and the ball replaced with a hockey puck
+                with different physics.[10] Positive reception to the ice hockey mode led to it being extended for a few
+                weeks after the holiday season. Snow Day was permanently added to the mutator settings for private
+                matches and exhibition games on February 10, 2016.[11][12] Hoops, a game mode based on
+                basketball,[13][14][15] was added on April 25, 2016.[16] A separate Rumble mode, which incorporates
+                unusual power-ups, such as the ability to freeze the ball in place or cause a single opponent to have
+                difficulty controlling their car, was added on September 8, 2016.[17] An update in December 2016, known
+                as Starbase ARC and based on Psyonix' mobile game ARC Squadron,[18] added support for custom arenas for
+                Windows players supported through Steam Workshop, along with other new content.[19] In celebration of
+                Super Bowl LV in February 2021, Psyonix released a limited time gamemode called Gridiron, which
+                functions similar to gridiron football with the normal soccer ball being replaced by a football.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/SgSX3gOrj60?si=wmrkJBQXon6-R6nX"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>

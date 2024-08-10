@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Minecraft</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a></li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Minecraft</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>5</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/M/i/2bd48d28d1c32adea0e55139a4e6434a/Minecraft-Starter-Collection-PS4-2D-Coperta.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$25</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Minecraft', 25, 'https://lcdn.altex.ro/resize/media/catalog/product/M/i/2bd48d28d1c32adea0e55139a4e6434a/Minecraft-Starter-Collection-PS4-2D-Coperta.jpg', 'minecraft.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Minecraft', 25, 'https://lcdn.altex.ro/resize/media/catalog/product/M/i/2bd48d28d1c32adea0e55139a4e6434a/Minecraft-Starter-Collection-PS4-2D-Coperta.jpg', 'minecraft.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 2 players</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Minecraft is a 2011 sandbox game developed by Mojang Studios. The game was created by Markus "Notch"
+                Persson in the Java programming language. Following several early private testing versions, it was first
+                made public in May 2009 before being fully released on November 18, 2011, with Notch stepping down and
+                Jens "Jeb" Bergensten taking over development. Minecraft has become the best-selling video game in
+                history, with over 300 million copies sold and nearly 140 million monthly active players as of 2023.
+                Over the years following its release, it has been ported to several platforms, including PC, mobile and
+                various consoles.
+
+                In Minecraft, players explore a blocky, pixelated, procedurally generated, three-dimensional world with
+                virtually infinite terrain. Players can discover and extract raw materials, craft tools and items, and
+                build structures, earthworks, and machines. Depending on their chosen game mode, players can fight
+                hostile mobs, as well as cooperate with or compete against other players in the same world. Game modes
+                include a survival mode (in which players must acquire resources to build in the world and maintain
+                health), creative mode (in which players have unlimited resources and the ability to fly), spectator
+                mode (in which players can fly, go through blocks, and enter the bodies of other players and entities),
+                adventure mode (in which players have to survive without being able to build and place blocks), and
+                hardcore mode (in which the difficulty is set to Hard and dying causes the player to lose their ability
+                to play on that world). The game's large community also offers a wide variety of user-generated content,
+                such as modifications, servers, skins, texture packs, and custom maps, which add new game mechanics and
+                possibilities.
+
+                Minecraft has received critical acclaim, winning several awards and being cited by some as one of the
+                greatest video games ever created; social media, parodies, adaptations, merchandise, and the annual
+                Minecon conventions played prominent roles in popularizing the game. The game has also been used in
+                educational environments to teach chemistry, computer-aided design, and computer science. In 2014,
+                Mojang and the Minecraft intellectual property were purchased by Microsoft for US$2.5 billion. Several
+                spin-offs have also been made, including Minicraft, Minecraft: Story Mode, Minecraft Earth, Minecraft
+                Dungeons, and Minecraft Legends. In addition, a live-action film of the same name is scheduled for a
+                theatrical release in 2025.
+            </p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Minecraft is a 3D sandbox game that has no required goals to accomplish, allowing players a large amount
+                of freedom in choosing how to play the game.[17] However, there is an achievement system,[18] known as
+                "advancements" in the Java Edition of the game, "trophies" on the PlayStation ports, and "achievements"
+                in Bedrock Edition and the Xbox ports.[citation needed] Gameplay is in the first-person perspective by
+                default, but players have the option of a third-person perspective.[19] The game world is composed of
+                rough 3D objects—mainly cubes and fluids, and commonly called "blocks"—representing various materials,
+                such as dirt, stone, ores, tree trunks (known as 'Logs'), water, and lava. The core gameplay revolves
+                around picking up and placing these objects. These blocks are arranged in a 3D grid, while players can
+                move freely around the world. Players can "mine" blocks and then place them elsewhere, enabling them to
+                build things.[20] Many commentators have described the game's physics system as unrealistic.[21] The
+                game also contains a material called redstone, which can be used to make primitive mechanical devices,
+                electrical circuits, and logic gates, allowing for the construction of many complex systems.[22][23]
+
+                The default player skin, Steve, stands on a cliffside overlooking a village in a forest. In the
+                distance, there is a small mountain range. The sun is setting to the right, making the sky turn pink and
+                blue.
+                An example of Minecraft's procedurally generated terrain, including a village and the default skin Steve
+                The game world is virtually infinite[j] and procedurally generated as players explore it, using a map
+                seed that is obtained from the system clock at the time of world creation (or manually specified by the
+                player).[24][25][26] There are limits on vertical movement, but Minecraft allows an infinitely large
+                game world to be generated on the horizontal plane. Due to technical issues when extremely distant
+                locations are reached, however, there is a barrier preventing players from traversing to locations
+                beyond 30 million blocks from the center.[k][obsolete source] The game achieves this by splitting the
+                world data into smaller 16 by 16 sections called "chunks" that are only created or loaded when players
+                are nearby.[24] The world is divided into biomes ranging from deserts to jungles to snowfields;[27][28]
+                the terrain includes plains, mountains, forests, caves, and bodies of water or lava.[26] The in-game
+                time system follows a day and night cycle, with one full cycle lasting for 20 real-time minutes.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MmB9b5njVbA?si=RXIUsaIjLLQLmpwu"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src = "iconita_wishlist.js"></script>
+    <script src = "iconita_nrprod.js"></script>
+    <script src = "back-mobile.js"></script>
+</body>
+
+</html>
