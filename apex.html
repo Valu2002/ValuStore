@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Apex Legends</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a>
+                </li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Apex Legends</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>3.75</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.mediagalaxy.ro/media/catalog/product/A/p/Apex-Legends-Bloodhound-Edition-PS4_62b92eb1.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$0</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Apex Legends', 0, 'https://lcdn.mediagalaxy.ro/media/catalog/product/A/p/Apex-Legends-Bloodhound-Edition-PS4_62b92eb1.jpg', 'apex.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Apex Legends', 0, 'https://lcdn.mediagalaxy.ro/media/catalog/product/A/p/Apex-Legends-Bloodhound-Edition-PS4_62b92eb1.jpg', 'apex.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Online play required</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS4/PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and
+                published by Electronic Arts. It was released for PlayStation 4, Windows, and Xbox One in February 2019,
+                for Nintendo Switch in March 2021, and for PlayStation 5 and Xbox Series X/S in March 2022. A mobile
+                version of the game designed for touchscreens titled Apex Legends Mobile was released in May 2022 on
+                Android and iOS. The game supports cross-platform play, excluding the aforementioned mobile platforms.
+
+                Before the match, players form into two- or three-player squads, and select from pre-designed characters
+                with distinctive abilities, known as "Legends". The game has two gameplay modes. In "Battle Royale", up
+                to 20 three-person squads or 30 two-person duos land on an island and search for weapons and supplies
+                before attempting to defeat all other players in combat. The available play area on the island shrinks
+                over time, forcing players to keep moving or else find themselves outside the play area which can be
+                fatal. The final team alive wins the round. In "Arenas", players form into three-player squads and fight
+                against another squad in a 3v3 team deathmatch over a series of rounds to determine the winner of the
+                match. Teams win when their team has at least 3 points and is 2 points ahead.
+
+                Apex Legends is set in the same science fiction universe as Respawn Entertainment's Titanfall series,
+                with several characters from the Titanfall series appearing either as minor characters or playable
+                Legends. Work on the game began around late 2016, though the project remained a secret right up until
+                its launch. The game's release in 2019 came as a surprise, as until that point it had been assumed that
+                Respawn Entertainment was working on a third installment to the Titanfall franchise, the studio's
+                previous major game. Apex Legends received generally positive reviews from critics, who praised its
+                gameplay, progression system, and fusion of elements from various genres. Some considered it a worthy
+                competitor to other battle royale games. Apex Legends surpassed 25 million players by the end of its
+                first week, and 50 million within its first month. By April 2021, it had approximately 100 million
+                players making it one of the most played video games of all time by player count.
+            </p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made
+                characters with distinctive abilities, called "Legends", similar to those of hero shooters.[1] Alternate
+                modes have been introduced allowing for single and for two-player squads since the game's release.[2][3]
+                The game is free-to-play and monetized through microtransactions and loot boxes, which allow the player
+                to spend both real money and in-game currency on cosmetic items, such as outfits for the Legends and new
+                colors for weapons.[4][5]
+
+                Each match generally features twenty teams of three-player squads. Players can join friends in a squad
+                or can be matched randomly with other players. Before the match, each player on the squad selects one of
+                the 25 playable characters (as of season 19), with the exception that no character may be selected more
+                than once by a squad. Each character in the squad has a unique design, personality, and abilities that
+                provide different playstyles to the team. Starting with Season 16, each legend is assigned to one of the
+                five unique class styles: Assault, Skirmisher, Recon, Controller and Support. All teams are then placed
+                on an aircraft that passes over the game map. One player in each squad is the jumpmaster, selecting when
+                the squad should skydive out of the aircraft and where to land with the concurrence of the other squad
+                members. However, players are free to deviate from the squad's path.
+
+                Once on the ground, the squad can scavenge for weapons, armor, and other equipment that is scattered
+                around buildings, or in crates randomly distributed around the map, while keeping an eye out for other
+                squads. Apex Legends includes a nonverbal communication "ping system" which allows players to use their
+                game controller to communicate to their squad certain directions, weapon locations, enemies, and
+                suggested strategies.[6] While the game offers movement options similar to other shooters, it includes
+                some of the gameplay features of previous Titanfall games, such as the ability to climb over short
+                walls, slide down inclined surfaces, and use zip-lines to traverse an area quickly.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UMJb_mkqynU?si=vc5Q49ZoPsD24-HM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src="iconita_wishlist.js"></script>
+    <script src="iconita_nrprod.js"></script>
+    <script src="back-mobile.js"></script>
+</body>
+
+</html>

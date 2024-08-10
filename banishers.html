@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6ea35d319.js" crossorigin="anonymous"></script>
+    <script src="add_to_cart.js"></script>
+    <script src="wishlist.js"></script>
+    <title>Banishers: Ghosts of New Eden</title>
+</head>
+
+<body>
+    <div class="mobile-header"></div>
+    <header class="header" id="header">
+        <a href="#" class="back-arrow" onclick="history.back()"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="title">ValuStore</h1>
+        <div class="header-dreapta">
+            <ul>
+                <li><a href="mycart.html"><i class="fa-solid fa-cart-shopping"></i>My cart <p id="cartCount">0</p></a>
+                </li>
+                <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i>Wishlist <p id="wishlistCount">0</p></a>
+                </li>
+                <button class="sign"><a href="SignIn.html">Sign in</a></button>
+                <button class="sign"><a href="SignUp.html">Sign up</a></button>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fa fa-bars fa-2x"></i></button>
+        <div class="panel">
+            <ul class="carousel-tertiary-tabs" id="tertiary-menu-toggle">
+                <li class="tertiary-tab"><a class="menu-item" href="recente.html">Latest</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="colectii.html">Collections</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="oferte.html">Deals</a></li>
+                <li class="tertiary-tab"><a class="menu-item" href="search.html">All games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="info-container">
+        <font size="+3">Banishers: Ghosts of New Eden</font>
+        <div class="stelute-container">
+            <font size="+2">
+                <b>4.67</b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </font>
+        </div>
+    </div>
+
+    <div class="produs-container">
+        <div class="poza-produs-container">
+            <img class="poza-produs"
+                src="https://lcdn.altex.ro/resize/media/catalog/product/b/a/2bd48d28d1c32adea0e55139a4e6434a/banishers_ghosts_of_new_eden_ps5_2d_coperta_2d5a78e5.jpg"
+                alt="God of War Ragnarök">
+        </div>
+        <div class="info-pret-cont">
+            <font size="+5"><b class="pret">$60</b></font>
+            <div class="flex">
+                <button class="btn-cart"
+                    onclick="addToCart('Banishers: Ghosts of New Eden', 60, 'https://lcdn.altex.ro/resize/media/catalog/product/b/a/2bd48d28d1c32adea0e55139a4e6434a/banishers_ghosts_of_new_eden_ps5_2d_coperta_2d5a78e5.jpg', 'banishers.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-cart-plus"></i></div>
+                    <div class="label"><span class="label-text">Add To Cart</span></div>
+                </button>
+                <button class="btn-wishlist"
+                    onclick="addToWishlist('Banishers: Ghosts of New Eden', 60, 'https://lcdn.altex.ro/resize/media/catalog/product/b/a/2bd48d28d1c32adea0e55139a4e6434a/banishers_ghosts_of_new_eden_ps5_2d_coperta_2d5a78e5.jpg', 'banishers.html')">
+                    <svg width="56px" height="48px" version="1.1" xmlns="https://www.w3.org/200/svg">
+                        <path d="M 0 0 L 56 0 L 40 48 L 0 48" stroke="none"></path>
+                    </svg>
+                    <div class="icon"><i class="fa fa-heart"></i></div>
+                    <div class="label"><span class="label-text">Add To Wishlist</span></div>
+                </button>
+            </div>
+            <div class="informatii-despre-joc">
+                <p class="text-joc"><i class="fa-solid fa-gamepad"></i> Offline play enabled</p>
+                <p class="text-joc"><i class="fa-solid fa-user"></i> 1 player</p>
+                <p class="text-joc"><i class="fa-solid fa-headset"></i> Remote Play supported</p>
+                <p class="text-joc"><i class="fa-brands fa-playstation"></i> PS5 Version</p>
+                <p class="text-joc"><i class="fa-regular fa-circle"></i> Vibration function and trigger effect supported
+                    (DualSense wireless controller)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriere-cont">
+        <details class="descriere">
+            <summary>Description</summary>
+            <p>In 1695, Banishers and lovers Antea Duarte and Ruaidhrigh "Red" mac Raith travel to colonial New England
+                to answer the call of their friend Charles Davenport to banish a particularly powerful curse afflicting
+                the town of New Eden. The pair discover that the curse has trapped New Eden in an eternal winter and has
+                claimed the lives of many townsfolk, including Charles himself. They meet the town leaders - Governor
+                Fairefax Haskell, huntress Thickskin Newsmith, and Captain Saul Pennington - as well as Charles' widow
+                Esther. Antea summons Charles' ghost, who warns her that a Nightmare, the rarest and most powerful type
+                of ghost, has come to haunt New Eden. Antea then reluctantly convinces Charles to take his ascent to the
+                afterlife and leave the mortal realm forever. Later that night, Antea and Red attempt to confront the
+                Nightmare, but she easily overpowers them both, killing Antea and throwing Red off a cliff.
+
+                Red awakes in a cave, having been saved by the witch Seeker under orders from her master Siridean.
+                Seeker and Red parts ways, leaving Red to find his way back to New Eden himself. He then finds Antea's
+                ghost, who agrees to help him take revenge on the Nightmare so that they can recover her body and she
+                can properly ascend. However, Red also considers performing a dark ritual that requires human sacrifice
+                in order to resurrect Antea. They come across survivors led by Thickskin and sister Kate who fled New
+                Eden, which is now fully under the Nightmare's control. They banish an evil spirit haunting the area,
+                only to discover that Thickskin culled the "weak" members of her group while Kate is complicit in her
+                lover Deborah Comenius being executed as a witch. Red then makes the choice of either sparing or
+                sacrificing Thickskin for her crimes. Later, the pair are led by Seeker to meet Siridean herself.
+                Siridean explains that the pair need to weaken the Nightmare by destroying her fragments that roam the
+                outskirts of New Eden, and then confront the Nightmare directly in the Void where she is vulnerable.
+
+                Red and Antea then travel around the outskirts of New Eden, where they encounter other New Eden survivor
+                groups led by Haskell and Pennington. However, in their investigations to solve the hauntings plaguing
+                the groups, the pair uncover evidence that both Haskell and Pennington were chiefly responsible for the
+                wrongful arrest, trial, and execution of Deborah as a witch, blaming her as the source of a plague that
+                ravaged New Eden several years ago. The Nightmare is actually Deborah's vengeful spirit, returned to
+                take her revenge on all of New Eden. Red has the choice of either sparing or sacrificing Haskell and
+                Pennington for their crimes. During this time, Siridean passes away from old age, but not before warning
+                Red and Antea that they must make sure they both desire the same thing.</p>
+        </details>
+        <details class="descriere">
+            <summary>Gameplay</summary>
+            <p>Banishers: Ghosts of New Eden is a third-person action role-playing game. In the game, the player assumes
+                control of a pair of ghost hunters named Antea Duarte and Red mac Raith. The pair goes on a mission to
+                investigate a small but haunted community named New Eden, though Duarte becomes a ghost in the process.
+                Players can make use of both Raith's conventional weaponry and Duarte's spirit abilities to combat
+                hostile enemies. In the game, players will have to make numerous choices, influencing the game's story.
+            </p>
+        </details>
+    </div>
+
+    <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nnnqpgFkIM8?si=9Dpi8uB9Fn6So8DT"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="info_joc.js"></script>
+    <script src="iconita_wishlist.js"></script>
+    <script src="iconita_nrprod.js"></script>
+    <script src="back-mobile.js"></script>
+</body>
+
+</html>
